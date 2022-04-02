@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import OfficialAccounts from "./official-account" //存放所有关注的公众号
+import ScutApps from "./scutApps"
 import contact from './contacts' //存放所有联系人的数据
 import mutations from "./mutations"
 import actions from "./actions"
@@ -13,6 +14,7 @@ const state = {
     newMsgCount: 0, //新消息数量
     allContacts: contact.contacts, //所有联系人
     OfficialAccounts: OfficialAccounts, //所有关注的公众号
+    ScutApps: ScutApps,
     currentPageName: "微信", //用于在wx-header组件中显示当前页标题
     //backPageName: "", //用于在返回按钮出 显示前一页名字 已遗弃
     headerStatus: true, //显示（true）/隐藏（false）wx-header组件

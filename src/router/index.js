@@ -74,6 +74,22 @@ const routes = [{
         }
     },
     {
+        path: '/contact/scut_apps',
+        name: "",
+        components: {
+            "default": resolve => require(["../components/contact/contact.vue"], resolve),
+            "subPage": resolve => require(["../components/contact/scut_apps.vue"], resolve)
+        }
+    },
+    {
+        path: '/contact/scut_apps/myPass',
+        name: "",
+        components: {
+            "default": resolve => require(["../components/contact/scut_apps.vue"], resolve),
+            "subPage": resolve => require(["../components/contact/myPass.vue"], resolve)
+        }
+    },
+    {
         path: '/contact/group-list',
         name: "",
         components: {

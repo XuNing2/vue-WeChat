@@ -30,6 +30,14 @@
                         <p>公众号</p>
                     </div>
                 </router-link>
+                <div  class="weui-cells__title">我的企业及企业联系人</div>
+                <router-link to="/contact/scut_apps" class="weui-cell">
+                    <div class="weui-cell_hd"><img class="img-obj-cover"
+                            src="https://imgsa.baidu.com/forum/pic/item/32fa828ba61ea8d390cd029a950a304e241f5844.jpg"></div>
+                    <div class="weui-cell_bd weui-cell_primary">
+                        <p>华南理工大学</p>
+                    </div>
+                </router-link>
             </div>
             <!--联系人集合-->
             <template v-for="(value,key) in contactsList">

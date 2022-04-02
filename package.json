@@ -17,7 +17,9 @@
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
     "vue-router": "^3.4.3",
-    "vuex": "^3.5.1"
+    "vuex": "^3.5.1",
+    "weui": "^2.5.4",
+    "weui.js": "^1.2.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
